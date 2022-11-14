@@ -5,7 +5,7 @@ Manuel Buendía García
 
 ### Index:
 
-<img src="Images/r3.png"/>
+<img src="images/r3.png"/>
 
 * [Purpose of the study](#section1)
 * [Materials and Methods](#section2)
