@@ -1,15 +1,18 @@
 # Final-project
-# Analysis and prediction of average temperature based on meteorological data
+# Analysis and prediction in Mercamadrid (Second most important wholesale in Europe)
 
 Manuel Buendía García
 
 ### Index:
 
+<img src="Images/r3.png"/>
+
 * [Purpose of the study](#section1)
 * [Materials and Methods](#section2)
 * [Tableau](#section3)
-* [Time Series and Machine learning Models](#section4)
-* [Conclusion](#section5)
+* [Web Scrapping](#section4)
+* [Time Series and Machine learning Models](#section5)
+* [Conclusion](#section6)
 
 <a id='section1'></a>
 ### Purpose of the study
@@ -43,9 +46,13 @@ The methods of this study include the followings:
 ### Tableau
 [Link to Tableau](https://public.tableau.com/app/profile/buendia.garcia/viz/Book2_16651275076100/Story2?publish=yes)
 
-From the original dataset, I create relevant tables to make my predictiond and analyse patterms.
+From the original dataset, I create relevant tables to analyse patterms and figure out the answers for my questions
 
 <a id='section4'></a>
+### Web Scrapping
+Before making predictions and creating machine learning models, I look at economic indicators that might have a strong relationship with the price for foodstuff.
+
+<a id='section5'></a>
 ### Time Series and Machine learning Models
 
 My dataset contains a huge number of food categories. Through using the whole wheight in percent for each category compared to the rest of categories, I splitted two tables: the first one would show food categories regarding the amount of KG (If a food category value is upper or equal to 1%, I consider these category foods as relevant in KG sold) and for the next table, the same porcess but using the $ generated.
@@ -65,7 +72,7 @@ Random Forest would be the best one so I pick it up as my model for my data set
 Train : 0.66
 Test : 0.70
 
-<a id='section5'></a>
+<a id='section6'></a>
 ### Conclusion
 Prediction:
 Which would be the price per kg for certain food at the end of the year?
