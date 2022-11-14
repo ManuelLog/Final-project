@@ -5,7 +5,6 @@ Manuel Buendía García
 
 ### Index:
 
-<img src="images/r3.png"/>
 
 * [Purpose of the study](#section1)
 * [Materials and Methods](#section2)
@@ -51,6 +50,8 @@ From the original dataset, I create relevant tables to analyse patterms and figu
 <a id='section4'></a>
 ### Web Scrapping
 Before making predictions and creating machine learning models, I look at economic indicators that might have a strong relationship with the price for foodstuff.
+<img src="images/r3.png"/>
+
 
 <a id='section5'></a>
 ### Time Series and Machine learning Models
@@ -67,22 +68,31 @@ Linear Regression: -3.41
 KNN: 0.48
 Random Forest: 0.64
 
+<img src="images/p5.png"/>
+
 Random Forest would be the best one so I pick it up as my model for my data set
 
 Train : 0.66
 Test : 0.70
+
+<img src="images/p6.png"/>
 
 <a id='section6'></a>
 ### Conclusion
 Prediction:
 Which would be the price per kg for certain food at the end of the year?
 Beef from caceres:
-According to my predictions, the price per kg will reach almost 6 $ per KG
+According to my predictions, the price per kg will reach almost 6 $ per KG.
+<img src="images/p10.png"/>
 Chicken from Zaragoza:
 The price will remain steady with a decreasing tendency at the end of the year
+<img src="images/p8.png"/>
+
 Regarding my questions:
 which factor is encouraging a huge increase in the price?
 According to what we can see in tableau and taking the example for beef (from all the origins), from january 2021 there is an increase in the trend. It could be driven by post covid effects and the sad war between Russian and Ukraine which encourage and inflaction never seen during 10 years ago.
+
 Is there any relationship between demand and offert to impose the price per kg?
 For beef products, there is not any relationship. An increase of prices do not generate a reductions of demand. It makes sense because we are talking about basic neccessities.
+<img src="images/r3.png"/>
 
